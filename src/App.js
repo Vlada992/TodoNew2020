@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Header from "./Components/Header/Header"
+import BodyCont from "./Components/BodyCont/BodyCont"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+//Class App statefull, smart, important, main component class App in the App
+
+class App extends Component {
+
+  handleKeyPress(target) {
+
+    if(target.charCode === 13){
+        console.log('radi ajde sad!!!!!!!!!!!!!!')
+     // alert('Enter clicked!!!');    
+    } else {console.log('nije')}
+  }
+
+  render() {
+
+    return (
+      <div className="App">
+        <Header />
+        <BodyCont handleKeyPress={this.handleKeyPress}
+        />
+      </div>
+    )
+  }
 }
+
+
+
 
 export default App;

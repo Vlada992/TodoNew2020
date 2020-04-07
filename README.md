@@ -66,3 +66,52 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+
+### Vladan Petrovic trying to make simple Todo App = will be in diff border - code style
+
+This is my Heading here
+=======================
+
+
+This will be sub-heading!
+-------------------------
+
+line break here  
+line was breaked up
+
+italic:  _italic_
+bold:   **bold**
+horizontal rule (hr):
+- - -
+
+Striketrought:
+~~strikethrough~~
+
+bullet list:
+
+* Belgrade
+* Novi Sad
+* Negotin
+
+Numbered list:
+
+1. jedan
+2. dva
+3. tri
+
+An [example](http://example.com).
+Another [github](https://github.com/Vlada992)
+
+
+![Image](./public/logo192.png "icon")
+![Image](./public/logo512.png "icon")
+
+So <abbr title="Don't repeat yourself">DRY<abbr/>
+
+
+
+

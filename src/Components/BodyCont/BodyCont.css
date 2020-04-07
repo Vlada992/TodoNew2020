@@ -1,0 +1,43 @@
+#fragmentId1 {
+}
+
+#colId1 {
+    margin:auto;
+}
+
+#formControlText {
+    text-align:left;
+    padding-left:10%;
+    border-radius:0!important;
+    height:70px;
+    font-size:25px;
+    opacity:0.9;
+    outline:none;
+    border:none;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+
+#formControlText::placeholder {
+    opacity:0.3;
+    color: rgb(184, 184, 184);
+    font-style: italic;
+    font-weight:600;
+}
